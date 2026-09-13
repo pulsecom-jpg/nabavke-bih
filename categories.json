@@ -1,0 +1,29 @@
+{
+  "vozila": {
+    "title": "Vozila i vozni park u javnim nabavkama BiH",
+    "description": "Svi dodijeljeni ugovori za nabavku vozila i za odr\u017eavanje voznog parka: putni\u010dka, teretna i specijalna vozila, autobusi, dijelovi, gume, servis i najam.",
+    "subcategory_keywords": [
+      "vozil", "automobil", "kombi", "autobus", "kamion", "teretn",
+      "guma", "pneumatik", "akumulator", "rezervni dijel", "servis vozil",
+      "odr\u017eavanje vozil", "najam vozil", "leasing vozil", "motorno vozilo"
+    ],
+    "text_fallback_keywords": [
+      "vozil", "automobil", "kombi vozilo", "autobus", "guma za vozilo"
+    ]
+  },
+
+  "medicinska_oprema": {
+    "title": "Medicinska oprema, pomagala i lijekovi u javnim nabavkama BiH",
+    "description": "Svi dodijeljeni ugovori za nabavku medicinske opreme, medicinskih pomagala, sanitetskog materijala i lijekova.",
+    "subcategory_keywords": [
+      "medicinsk", "lijek", "farmaceut", "sanitetsk", "laboratorijsk",
+      "dijagnosti\u010dk", "rendgen", "ultrazvuk", "stomatolo\u0161k",
+      "ortoped", "proteza", "implant", "vakcin", "reagens",
+      "zdravstven materijal", "hirur\u0161k", "rukavic"
+    ],
+    "text_fallback_keywords": [
+      "medicinska oprema", "medicinsko pomagalo", "lijek", "lijekovi",
+      "sanitetski materijal", "farmaceutski proizvod"
+    ]
+  }
+}
