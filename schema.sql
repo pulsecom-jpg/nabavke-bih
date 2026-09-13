@@ -1,2 +1,0 @@
--- Schema je u init() funkciji app.py; ova datoteka sluzi kao kratka referenca.
--- Glavna tabela: ugovori; dimenzije su namjerno genericke da ista aplikacija podrzi bilo koju vrstu javne nabavke.
