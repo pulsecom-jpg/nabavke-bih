@@ -1,10 +1,9 @@
-name: Dnevni izvještaj javnih nabavki
+name: Dnevni izvjestaj javnih nabavki
 
 on:
   schedule:
-    # svaki dan u 06:00 UTC (07:00/08:00 po BiH vremenu, zavisno od DST-a)
     - cron: "0 6 * * *"
-  workflow_dispatch: {}   # omogućava ručno pokretanje sa GitHub UI
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -25,7 +24,7 @@ jobs:
       - name: Dohvati nove/izmijenjene ugovore
         run: python fetch.py
 
-      - name: Generiši HTML izvještaje
+      - name: Generisi HTML izvjestaje
         run: python report.py
 
       - name: Commituj promjene
